@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, serif;
+}
+
+*,
+:after,
+:before{
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 883px;
+}
+
+.header-container{
+    width: 100%;
+    max-width: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-container__title{
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-container__title:before{
+    content: "";
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+
+.header-container__title:after{
+    content: "";
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+
+.header-container button{
+    background: none;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    height: 60px;
+    background-color: #252e30;
+}
+
+main nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.logo__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 150px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.logo{
+    font-size: 25px;
+    background-color: #4b5456;
+    height: 42px;
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-title{
+    font-size: 30px;
+    margin-left: 7%;
+}
+
+.logo-title:after{
+    content: "CAL";
+    color: #2ecc71;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 780px;
+}
+
+.menu-item{
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    color: #2ecc71;
+}
